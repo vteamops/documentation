@@ -8,16 +8,19 @@
 </head>
 <body>
   <div id="app">Loading...</div>
-  <script>
-    window.$docsify = {
-      name: 'VTeamOps Technologies',
-      repo: 'https://github.com/vteamops/documentation',
-      loadSidebar: true,
-      basePath: 'docs/',  // 👈 All Markdown files will be loaded from docs/ folder
-      homepage: 'intro.md', // 👈 default landing page inside docs/
-      subMaxLevel: 2
+<script>
+  window.$docsify = {
+    name: 'Documentation',
+    repo: '',
+    loadSidebar: true,
+    subMaxLevel: 2,
+    sidebarDisplayLevel: 1, // Show first level expanded
+    sidebarCollapse: {
+      collapse: true,  // Collapse others when opening one
+      level: 2         // Allow collapsing for 2nd level items
     }
-  </script>
+  }
+</script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
 </body>
 </html>
