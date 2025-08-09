@@ -1,5 +1,7 @@
-- [Home](intro.md)
-- [Introduction](intro.md)
-- [Setup Guide](setup.md)
-- [Usage](usage.md)
-- [Vmware PowerCLI](vmware-powershell-automation.md)
+- **Getting Started**
+  - [Home](intro.md)
+  - [Setup Guide](setup.md)
+  - [Usage](usage.md)
+
+- **Automation**
+  - [VMware PowerCLI](vmware-powershell-automation.md)
