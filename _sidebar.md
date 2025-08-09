@@ -1,5 +1,0 @@
-- [Home](/)
-- [Introduction](docs/intro.md)
-- [Setup Guide](docs/setup.md)
-- [Usage](docs/usage.md)
-- [Vmware Powercli](docs/vmware-powershell-automation.md)
